@@ -1,0 +1,290 @@
+html {
+  box-sizng: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *: before, *: after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+}
+
+/* Guest Review */
+#guest-review {
+  overflow: hidden;
+  width: 100%;
+  height: 1250px;
+}
+
+#guest-review h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#card-container {
+  width: 1140px;
+  height: 760px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.big-card {
+  float: left;
+  width: 730px;
+  height: 500px;
+  margin: 15px;
+  border-radius: 8px;
+  background-color: #0A223D;
+}
+
+.big-card img {
+  position: absolute;
+  width: 366px;
+  height: 500px;
+}
+
+.offer {
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 26px;
+  border-radius: 0px 4px 4px 0px;
+  background-color: #EC1F46;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.big-card .card-info {
+  width: 364px;
+  height: 500px;
+  margin-left: 366px;
+}
+
+.stars {
+  position: absolute;
+  width: 48px;
+  height: 8px;
+  margin: 46px 0px 0px 43px;
+}
+
+.card-info h2 {
+  display: block;
+  position: absolute;
+  margin: 59px 0px 0px 43px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+.detail {
+  display: block;
+  position: absolute;
+  width: 299px;
+  height: 165px;
+  margin: 109px 0px 0px 44px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+
+.room-info {
+  position: absolute;
+  width: 203px;
+  height: 62px;
+  margin: 308px 0px 0px 46px;
+}
+
+.room-info img {
+  width: 14px;
+  height: 14px;
+}
+
+.room-info p {
+  position: absolute;
+  margin: 0px 0px 0px 28px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+}
+
+.user {
+  margin-top: 26px;
+}
+
+.home {
+  margin-top: 52px;
+}
+
+.cost {
+  position: absolute;
+  margin: 412px 0px 0px 46px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  color: white;
+  text-decoration: line-through;
+}
+
+.discount {
+  position: absolute;
+  margin: 435px 0px 0px 46px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.button {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin: 430px 0px 0px 223px;
+  border-radius: 4px;
+  background-color: #EC1F46;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.small-card {
+  float: left;
+  width: 350px;
+  height: 500px;
+  margin: 15px;
+  border-radius: 8px;
+  background-color: #0A223D;
+}
+
+.small-card img {
+  position: absolute;
+  width: 350px;
+  height: 250px;
+}
+
+.small-card .offer {
+  width: 60px;
+  height: 18px;
+  margin-top: 26px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 18px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.small-card .card-info {
+  width: 350px;
+  height: 250px;
+  padding-top: 250px;
+}
+
+.small-card h2 {
+  margin: 30px 0px 0px 32px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.small-card .room-info {
+  width: 203px;
+  height: 67px;
+  margin: 76px 0px 0px 32px;
+}
+
+.room-info img {
+  width: 14px;
+  height: 14px;
+}
+
+.small-card .cost {
+  margin: 167px 0px 0px 32px;
+}
+
+.small-card .discount {
+  margin: 190px 0px 0px 32px;
+}
+
+.small-card .button {
+  margin: 185px 0px 0px 209px;
+}
+
+/* Newsletter */
+#Newsletter {
+  height: 260px;
+  width: 100%;
+  background-image: url(../images/newsletter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0A223D;
+  background-blend-mode: soft-light;
+}
+
+#Newsletter span {
+  display: block;
+  position: absolute;
+  margin: 98px 0px 0px 354px;
+  font-family: 'Mulish', sans-serif;
+  color: white;
+}
+
+#Newsletter p {
+  margin: 0px;
+  font-size: 24px;
+}
+
+#Newsletter h3 {
+  margin: 0px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.email-form {
+  position: absolute;
+  overflow: hidden;
+  width: 350px;
+  height: 55px;
+  margin: 108px 0px 0px 735px;
+	border-radius: 4px;
+	background-color: white;
+}
+
+.email-form input {
+  float: left;
+  border: none;
+}
+
+.text-field {
+  width: 252px;
+  height: 55px;
+  padding: 0px 0px 0px 33px;
+  font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+}
+
+.submit-btn {
+  width: 65px;
+  height: 55px;
+  padding: 0px;
+  background-color: #EC1F46;
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+}
